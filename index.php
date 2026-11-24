@@ -105,7 +105,6 @@ $toplamKahve = $db->query("SELECT COUNT(*) FROM kahveler")->fetchColumn();
     <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
       <div>
         <h1 class="text-2xl font-bold tracking-tight">☕ Dünya Kahveleri Veritabanı</h1>
-        <p class="text-sm text-[#D7C4B7] mt-1">Çoklu Tablo İlişkisel SQLite (kahve.db) & PHP Yönetim Sistemi</p>
       </div>
       <button onclick="yeniModalAc()" class="bg-[#C87D4B] hover:bg-[#b56d3d] text-white font-medium px-5 py-2.5 rounded-lg shadow transition cursor-pointer">
         + Yeni Kahve Ekle
