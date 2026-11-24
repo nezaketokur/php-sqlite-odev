@@ -1,5 +1,5 @@
 <?php
-require_once 'baglanti.php';
+require_once 'includes/baglanti.php';
 
 // Ekleme, Güncelleme ve Silme (CRUD) İşlemleri
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
